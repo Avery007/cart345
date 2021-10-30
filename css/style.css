@@ -1,0 +1,29 @@
+@font-face {
+  font-family:Lettres ;
+    src: url('../fonts/Lettres.otf');
+  src: local("Lettres"), url('../fonts/Lettres.ttf');
+}
+
+@font-face {
+  font-family:pixtech ;
+    src: url('../fonts/pixtech.ttf');
+  src: local("pixtech"), url('../fonts/pixtech2.ttf');
+}
+
+@font-face {
+  font-family:Technology ;
+    src: url('../fonts/Technology.ttf');
+  src: local("Technology"), url('../fonts/Technology Bold.ttf');
+}
+
+
+
+#title
+   {  font-family:'Lettres',pixtech,Arial;
+      position: absolute;
+   	font-size: 50px;
+   	color:grey;
+    top: 200px;
+    right: 20%;
+    z-index: 2;
+   }
