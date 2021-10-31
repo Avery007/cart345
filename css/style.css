@@ -23,7 +23,7 @@
       position: absolute;
    	font-size: 40px;
    	color:grey;
-    top: 50px;
+    top: 20px;
     right: 15%;
     left: 15%;
     z-index: 2;
@@ -37,8 +37,8 @@ body {
 #human
    { 
       position: absolute;
-    with:100px;
-    hight:200px;	
+    width:80px;
+    height:200px;	
     top:250px;
     right: 50%;
     z-index: 3;
@@ -47,9 +47,102 @@ body {
 #aura
    { 
       position: absolute;
-    with:100px;
-    hight:200px;	
+    width:200px;
+    height:300px;	
     top:200px;
     right: 45%;
     z-index: 2;
+    opacity:1;
    }
+
+#chip1
+   { 
+      position: absolute;
+    width:130px;
+    height:130px;	
+    top:300px;
+    left: 15%;
+    z-index: 3;
+   }
+
+#chip2
+   { 
+      position: absolute;
+    width:130px;
+    height:130px;	
+    top:430px;
+    left: 35%;
+    z-index: 3;
+   }
+
+#chip3
+   { 
+      position: absolute;
+    width:130px;
+    height:130px;	
+    top:280px;
+    left: 65%;
+    z-index: 3;
+   }
+
+#chip4
+   { 
+      position: absolute;
+    width:130px;
+    height:130px;	
+    top:450px;
+    left: 75%;
+    z-index: 3;
+   }
+
+#text1
+   { 
+    position: absolute;
+    width:300px;
+    height:180px;	
+    top:150px;
+    left: 5%;
+    z-index: 3;
+   }
+
+#text2
+   { 
+    position: absolute;
+    width:340px;
+    height:210px;	
+    top:350px;
+    left: 5%;
+    z-index: 3;
+    display:none;
+   }
+#button{
+  position: absolute;
+  top: 30vw;
+  left: 35vw;
+  z-index: 3;
+  cursor: pointer;
+  background-color: yellow;
+  border: none;
+  color: blue;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 12px;
+}
+
+#phrase{
+
+font-family:'pixtech',Arial;
+      position: absolute;
+   	font-size: 20px;
+   	color:grey;
+    top: 200px;
+    right: 5%;
+    display:none;
+    z-index: 3;
+
+
+
+}
+
