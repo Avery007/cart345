@@ -21,9 +21,35 @@
 #title
    {  font-family:'Lettres',pixtech,Arial;
       position: absolute;
-   	font-size: 50px;
+   	font-size: 40px;
    	color:grey;
-    top: 200px;
-    right: 20%;
+    top: 50px;
+    right: 15%;
+    left: 15%;
+    z-index: 2;
+   }
+
+body {
+  background-color: black;
+}
+
+
+#human
+   { 
+      position: absolute;
+    with:100px;
+    hight:200px;	
+    top:250px;
+    right: 50%;
+    z-index: 3;
+   }
+
+#aura
+   { 
+      position: absolute;
+    with:100px;
+    hight:200px;	
+    top:200px;
+    right: 45%;
     z-index: 2;
    }
