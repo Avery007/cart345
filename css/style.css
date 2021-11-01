@@ -21,7 +21,7 @@
 #title
    {  font-family:'Lettres',pixtech,Arial;
       position: absolute;
-   	font-size: 40px;
+   	font-size: 2vw;
    	color:grey;
     top: 20px;
     right: 15%;
@@ -37,19 +37,19 @@ body {
 #human
    { 
       position: absolute;
-    width:80px;
-    height:200px;	
-    top:250px;
+    width:5vw;
+    height:25vh;	
+    top:200px;
     right: 50%;
     z-index: 3;
    }
 
 #aura
    { 
-      position: absolute;
-    width:200px;
-    height:300px;	
-    top:200px;
+     position: absolute;
+    width:15vw;
+    height:40vh;	
+    top:150px;
     right: 45%;
     z-index: 2;
     opacity:1;
@@ -58,8 +58,8 @@ body {
 #chip1
    { 
       position: absolute;
-    width:130px;
-    height:130px;	
+    width:9vw;
+    height:12vh;	
     top:350px;
     left: 20%;
     z-index: 3;
@@ -68,9 +68,9 @@ body {
 #chip2
    { 
       position: absolute;
-    width:130px;
-    height:130px;	
-    top:430px;
+    width:13vw;
+    height:13vh;	
+    top:480px;
     left: 35%;
     z-index: 3;
    }
@@ -78,8 +78,8 @@ body {
 #chip3
    { 
       position: absolute;
-    width:130px;
-    height:130px;	
+    width:10vw;
+    height:15vh;	
     top:280px;
     left: 65%;
     z-index: 3;
@@ -88,8 +88,8 @@ body {
 #chip4
    { 
       position: absolute;
-    width:130px;
-    height:130px;	
+    width:10vw;
+    height:12vh;	
     top:450px;
     left: 75%;
     z-index: 3;
@@ -98,8 +98,8 @@ body {
 #text1
    { 
     position: absolute;
-    width:300px;
-    height:180px;	
+    width:20vw;
+    height:25vh;	
     top:150px;
     left: 5%;
     z-index: 3;
@@ -108,9 +108,9 @@ body {
 #text2
    { 
     position: absolute;
-    width:340px;
-    height:210px;	
-    top:350px;
+    width:24vw;
+    height:30vh;	
+    top:150px;
     left: 5%;
     z-index: 3;
     display:none;
